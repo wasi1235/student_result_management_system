@@ -63,7 +63,7 @@ function Home() {
       {results.length > 0 ? (
         <Row gutter={[20, 20]}>
           <Col span={24}>
-            <h1 className="text-large my-3">Welcome to SHEY RESULTS </h1>
+            <h1 className="text-large my-3">Welcome to SRMS </h1>
             <h1 className="text-medium my-3">
               Select Your Examination From Below..{" "}
             </h1>
