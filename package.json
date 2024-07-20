@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines" : {
-    "node" : "15.7.0",
-    "npm" : "7.4.3"
+  "engines": {
+    "node": "15.7.0",
+    "npm": "7.4.3"
   },
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -25,5 +25,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.5.1",
     "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
