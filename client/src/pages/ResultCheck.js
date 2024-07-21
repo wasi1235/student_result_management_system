@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { HideLoading, ShowLoading } from "../redux/alerts";
 function ResultCheck() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const [rollNo, setRollNo] = React.useState("");
   const [studentResult, setStudentResult] = React.useState(null);
   const params = useParams();
@@ -85,7 +85,7 @@ function ResultCheck() {
       <div className="header d-flex justify-content-between align-items-center">
         <h1 className="text-white">
           {" "}
-          <b className="secondary-text">SHEY</b> RESULTS{" "}
+          <b className="secondary-text">SRMS</b> RESULTS{" "}
         </h1>
         <div>
           <h1
